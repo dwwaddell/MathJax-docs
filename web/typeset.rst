@@ -169,8 +169,8 @@ When called with no arguments, :meth:`MathJax.typesetClear()` tells
 MathJax to forget about all the math that has been typeset so far.
 Note that the math will remain in the page as typeset math, but
 MathJax will no longer know anything about it.  For example, that
-means that changes to the output renderer or accessibility setting
-swill not affect any of the math that was typeset previously.
+means that changes to the output renderer or accessibility settings
+will not affect any of the math that was typeset previously.
 
 If you remove math from only a portion of the page, you can call
 :meth:`MathJax.typesetClear()` passing it an array of container
